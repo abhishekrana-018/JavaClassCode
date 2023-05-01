@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main 
+{
+
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    if (num >= 0) {
+      System.out.println((double)num);
+    }
+        else 
+    {
+    
+        System.out.println("Invalid Input");
+    
+    }
+
+    }
+}
+
+
+
+//q2
+import java.util.Scanner;
+
+public class Main 
+{
+  public static void main(String[] args) 
+  {
+    Scanner sc = new Scanner(System.in);
+    double num = sc.nextDouble();
+    if (num >= 1 && num <= 5) 
+    {
+      System.out.println("Thanks");
+    } else 
+    
+    {
+      System.out.println("Error: 101");
+    }
+  }
+}
